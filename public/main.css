@@ -1,0 +1,78 @@
+body{
+    background: #0052d4; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0052d4, #4364f7, #6fb1fc); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0052d4, #4364f7, #6fb1fc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+.main-home-bur{
+    width: 15em;
+    height: 7em;
+    border-radius: 15px;
+    background-color:  green;
+}
+
+.main-card-lesson{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin-left: 25%;
+}
+
+.main-card-lesson div{
+    margin-left: 0;
+    margin-right: 0;
+    color: white;
+    display: inline-block;
+    border: 3px solid black;
+    width: 5em;
+    height: 30em;
+}
+
+.main-card-lesson h3{
+    margin-top: 10em;
+    transform: rotate(-90deg);
+    font-size: 24px;
+}
+
+.card-lesson :hover{
+    background-color: green;
+}
+
+.card-math {
+    background-color: red;
+    border-radius: 18px 0px 0px 18px;
+}
+
+.card-architecture {
+    background-color: orange;
+}
+
+.card-physics {
+    background-color: rgba(168, 46, 178, 1);
+}
+
+.card-informatics {
+    background-color: rgba(21, 1, 246, 1) ;
+}
+
+.card-biology {
+    background-color: rgba(20, 128, 2, 1);
+}
+
+.card-geography {
+    background-color: rgba(9, 128, 144, 1);
+}
+
+.card-medicine {
+    background-color: rgba(216, 200, 53, 1);
+}
+
+.card-chemistry {
+    background-color: rgba(4, 191, 68, 1);
+}
+
+.card-astrology {
+    background-color: rgba(89, 14, 164, 1);
+    border-radius: 0px 18px 18px 0px;
+}
