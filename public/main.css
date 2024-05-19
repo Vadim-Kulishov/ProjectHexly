@@ -6,6 +6,7 @@ body{
 }
 
 .main-home-bur{
+    text-align: center;
     width: 15em;
     height: 7em;
     border-radius: 15px;
@@ -20,6 +21,7 @@ body{
 }
 
 .main-card-lesson div{
+    position: relative;
     margin-left: 0;
     margin-right: 0;
     color: white;
